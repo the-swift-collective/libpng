@@ -1,0 +1,3 @@
+[submodule "libpng"]
+	path = libpng
+	url = https://github.com/the-swift-collective/LibPNGC.git
