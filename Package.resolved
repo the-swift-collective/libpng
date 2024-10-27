@@ -1,14 +1,16 @@
 {
-  "pins" : [
-    {
-      "identity" : "zlib",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/the-swift-collective/zlib.git",
-      "state" : {
-        "revision" : "524720ad7f48e27b1a19b213eda8a5e207c73046",
-        "version" : "1.3.1"
+  "object": {
+    "pins": [
+      {
+        "package": "zlib",
+        "repositoryURL": "https://github.com/the-swift-collective/zlib.git",
+        "state": {
+          "branch": null,
+          "revision": "f35d438c14187cb369dfd82603c3427dc66fbed5",
+          "version": "1.3.1"
+        }
       }
-    }
-  ],
-  "version" : 2
+    ]
+  },
+  "version": 1
 }

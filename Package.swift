@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.5
 //
 // SPDX-License-Identifier: libpng-2.0
 // Copyright Contributors to the PNG Reference Library project
