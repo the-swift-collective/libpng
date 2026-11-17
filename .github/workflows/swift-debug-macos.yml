@@ -4,18 +4,11 @@ on: [push]
 
 jobs:
   build:
-    name: Swift ${{ matrix.swift }} on ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [macos-14]
-        swift: ["5.10"]
-    runs-on: ${{ matrix.os }}
+    name: Swift (Xcode) on macos-26
+    runs-on: macos-26
     steps:
-      - uses: swift-actions/setup-swift@v2
-        with:
-          swift-version: ${{ matrix.swift }}
       - uses: actions/checkout@v4
-      - name: 🐙 Fetch Git Submodules
-        run: git submodule update --init --recursive
+        with:
+          submodules: recursive
       - name: 🧪 Test
         run: swift test
